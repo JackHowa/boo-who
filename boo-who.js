@@ -4,3 +4,6 @@ function booWho(bool) {
 }
 
 booWho(null);
+// booWho(true) should return true.
+// booWho(false) should return true. nope
+// booWho([1, 2, 3]) should return false.
